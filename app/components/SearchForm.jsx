@@ -11,7 +11,7 @@ var SearchForm = React.createClass({
 
   render: function () {
     return (
-      <form className="search-form box" onSubmit={this.onFormSubmit}>
+      <form className="search-form" onSubmit={this.onFormSubmit}>
           <ul className="menu">
             <li><input type="search" placeholder="Search" ref="word"/></li>
             <li><button type="button" className="button">Search</button></li>

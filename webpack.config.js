@@ -26,7 +26,8 @@ module.exports = {
       SearchForm: 'app/components/SearchForm.jsx',
       DisplayResult: 'app/components/DisplayResult.jsx',
       applicationStyles: 'app/styles/app.scss',
-      twitterSearch: 'app/api/twitterSearch.jsx'
+      twitterSearch: 'app/api/twitterSearch.jsx',
+      wordSuggest: 'app/api/wordSuggest.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },

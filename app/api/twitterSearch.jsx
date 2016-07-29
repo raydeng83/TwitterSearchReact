@@ -14,7 +14,6 @@ module.exports = {
     var requestUrl = TWITTER_SEARCH_URL + word;
 
     return axios.get(requestUrl, config).then(function (res) {
-      console.log('success');
       return res.data;
     }, function (res) {
       console.log('failure');
